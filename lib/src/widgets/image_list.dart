@@ -23,7 +23,7 @@ class ImageList extends StatelessWidget {
         children: <Widget>[
           Padding(
             child: Image.network(image.url),
-            padding: EdgeInsets.only(bottom: 10.0),
+            padding: EdgeInsets.only(bottom: 10 .0),
           ),
           Text(image.title),
         ],
